@@ -9,7 +9,7 @@ maintainer: [
 authors: "OCaml batteries-included team"
 homepage: "https://github.com/dune-universe/batteries-included"
 bug-reports: "https://github.com/ocaml-batteries-team/batteries-included/issues"
-dev-repo: "https://github.com/dune-universe/batteries-included.git"
+dev-repo: "git+https://github.com/dune-universe/batteries-included.git"
 license: "LGPL-2.1-or-later with OCaml-LGPL-linking-exception"
 build: [ "dune" "build" "-p" name "-j" jobs ]
 depends: [
